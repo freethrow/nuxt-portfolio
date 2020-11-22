@@ -9,10 +9,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@contentful/rich-text-html-renderer": "^14.1.2",
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/markdownit": "^1.2.10",
     "contentful": "^7.14.14",
+    "contentful-rich-text-vue-renderer": "^1.1.5",
     "core-js": "^3.6.5",
     "dotenv": "^8.2.0",
+    "markdown-it-attrs": "^3.0.3",
+    "markdown-it-div": "^1.1.0",
     "nuxt": "^2.14.6"
   },
   "devDependencies": {

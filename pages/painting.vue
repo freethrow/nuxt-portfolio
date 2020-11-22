@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <Navigation /> 
+      <h1>Architecture</h1>
     </div>
     <div class="projects">
 
@@ -25,7 +26,8 @@ import client from '~/plugins/contentful';
 export default {
   asyncData() {
     return client.getEntries({
-      content_type:'project'
+      content_type:'project',
+      'fields.category':'Painting'
       })
       .then(entries => {
               

@@ -1,10 +1,13 @@
 <template>
-  <div class="container bg-yellow-200">
+  <div class="container">
     <div>
     <Navigation /> 
   
     </div>
     <h3>Title: {{ project.fields.title }} </h3>
+
+    <div class="description" v-html="$md.render(project.fields.description)">
+    </div>
    
     Params slug: {{ $route.params.slug }}
 
@@ -17,7 +20,7 @@
     </div>
 <hr>
 <div class="bg-red-800 text-white">
-{{ project.fields.picture }}
+{{ project.fields }}
 </div>
     
   </div>
