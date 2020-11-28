@@ -2,21 +2,15 @@
   <div class="container">
     <div>
       <Navigation /> 
-      <h1>Architecture</h1>
     </div>
     <div class="projects">
 
-    <div v-for="(project,index) in projects" :key= "index"
-    class=""
-    >
-    <nuxt-link :to="project.fields.slug">
-    <img :src="`${project.fields.cover.fields.file.url}?fm=jpg&fl=progressive&w=300&h=300`" 
-    alt="Cover"
+    <div v-for="(category,index) in categories" :key= "index"
     class="">
-    {{ project.fields.title }}</nuxt-link>
+    {{ category }}
+   
     </div>
-  
-    </div>
+  </div>
   </div>
 </template>
 
@@ -26,12 +20,15 @@ import client from '~/plugins/contentful';
 export default {
   asyncData() {
     return client.getEntries({
-      content_type:'project',
-      'fields.category':'Painting'
+      content_type:'category'
       })
       .then(entries => {
+
+        for (const element of entries.items) {
+          console.log(element);
+        }   
               
-        return {projects: entries.items}
+        return {categories: entries.items}
       })
       .catch(err=>console.log(err))
   },
@@ -41,7 +38,7 @@ export default {
 <style>
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+@apply min-h-screen bg-green-500;
 }
 */
 .container {

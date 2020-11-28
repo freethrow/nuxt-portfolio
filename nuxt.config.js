@@ -13,7 +13,8 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel:'stylesheet', href:'https://fonts.googleapis.com/css2?family=Jost:wght@200;400;800&display=swap'}
     ]
   },
 
@@ -51,6 +52,13 @@ export default {
       'markdown-it-div',
       'markdown-it-attrs'
     ]
+  },
+
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config.js',
+    exposeConfig: false,
+    config: {}
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)

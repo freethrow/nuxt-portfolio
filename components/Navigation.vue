@@ -10,8 +10,7 @@
         <ul class="flex justify-center items-center flex-row">
         <li class="inline-block p-2"><nuxt-link to="/" >Home</nuxt-link></li>
         <li class="inline-block p-2"><nuxt-link to="/painting" >Izložbe</nuxt-link></li>
-        <li class="inline-block p-2"><nuxt-link to="/architecture">Arhitektura</nuxt-link></li>
-        <li class="inline-block p-2"><nuxt-link to="/">Projekti</nuxt-link></li>
+        <li class="inline-block p-2"><nuxt-link to="projects">Projekti</nuxt-link></li>
         <li class="inline-block p-2"><nuxt-link to="/">Biografija</nuxt-link></li>
         </ul>
     </div>

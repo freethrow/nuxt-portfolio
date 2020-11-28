@@ -2,17 +2,20 @@
   <div class="container">
     <div>
     <Navigation /> 
-  
+ 
     </div>
-    <h3>Title: {{ project.fields.title }} </h3>
+    <h3>Title: {{ expo.fields.title }} </h3>
 
-    <div class="description" v-html="$md.render(project.fields.description)">
+    <div class="description" v-html="$md.render(expo.fields.description)">
+    </div>
+
+       <div class="additional" v-html="$md.render(expo.fields.additional)">
     </div>
    
     Params slug: {{ $route.params.slug }}
 
     <hr>
-    <div v-for="(picture,index) in project.fields.picture" :key="index">
+    <div v-for="(picture,index) in expo.fields.picture" :key="index">
         {{ picture.fields.title }}<br/>
         ASETTT: {{ picture.fields.image.fields.file.url }} <br/>
         <img :src="picture.fields.image.fields.file.url" alt="" class="w-full">
@@ -20,7 +23,7 @@
     </div>
 <hr>
 <div class="bg-red-800 text-white">
-{{ project.fields }}
+{{ expo.fields }}
 </div>
     
   </div>
@@ -36,27 +39,26 @@ export default {
     
   asyncData({params}) {
     return client.getEntries({
-      content_type:'project',
+      content_type:'exhibition',
       'fields.slug':params.slug
       })
       .then(entries => {
-         
-        
-        return {project: entries.items[0]}
+        // just one entry        
+        return {expo: entries.items[0]}
       })
       .catch(err=>console.log(err))
   },
 
   head(){
       return {
-          title:this.project.fields.title
+          title:this.expo.fields.title
       }
   }
 }
 
 </script>
 
-<style>
+<style scoped>
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
@@ -66,6 +68,10 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   
+}
+
+h2{
+  color:blue;
 }
 
 

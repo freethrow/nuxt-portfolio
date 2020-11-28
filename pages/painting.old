@@ -27,7 +27,7 @@ export default {
   asyncData() {
     return client.getEntries({
       content_type:'project',
-      'fields.category':'Architecture'
+      //'fields.category':'Painting'
       })
       .then(entries => {
               
