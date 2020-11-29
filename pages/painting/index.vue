@@ -1,28 +1,43 @@
 <template>
-  <div class="container">
-    <div>
-      <Navigation /> 
-    </div>
+
+ 
     <div class="projects">
-
-    <div v-for="(expo,index) in exhibitions" :key= "index"
-    class="">
-    
    
-    <img :src="expo.fields.cover.fields.file.url"
-    class="rounded-2xl" />
+    <Card v-for="(expo,index) in exhibitions" :key= "index"
+      :title = expo.fields.title 
+      :cover = expo.fields.cover.fields.file.url
+      :description = expo.fields.description
+      :year = expo.fields.year
+      :slug= '`painting/${expo.fields.slug}`'
+       />
 
-    <hr>
-    {{ expo.fields.description }}
+        <Card v-for="(expo,index) in exhibitions" :key= "index"
+      :title = expo.fields.title 
+      :cover = expo.fields.cover.fields.file.url
+      :description = expo.fields.description
+      :slug= '`painting/${expo.fields.slug}`'
+       />
 
-    <nuxt-link :to="`/painting/${expo.fields.slug}`">link</nuxt-link>
-   
+
+          <Card v-for="(expo,index) in exhibitions" :key= "index"
+      :title = expo.fields.title 
+      :cover = expo.fields.cover.fields.file.url
+      :description = expo.fields.description
+      :slug= '`painting/${expo.fields.slug}`'
+       />
+
+
+           <Card v-for="(expo,index) in exhibitions" :key= "index"
+      :title = expo.fields.title 
+      :cover = expo.fields.cover.fields.file.url
+      :description = expo.fields.description
+      :slug= '`painting/${expo.fields.slug}`'
+       />
     
 
+    
     </div>
-  
-    </div>
-  </div>
+
 </template>
 
 <script>

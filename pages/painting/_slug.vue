@@ -1,30 +1,31 @@
-<template>
-  <div class="container">
-    <div>
-    <Navigation /> 
- 
-    </div>
-    <h3>Title: {{ expo.fields.title }} </h3>
+<template> 
+    <div class="p-3">
+    <h3 class="font-bold text-xl">{{ expo.fields.title }} </h3>
 
-    <div class="description" v-html="$md.render(expo.fields.description)">
-    </div>
+    <img :src=expo.fields.cover.fields.file.url alt=""
+    class="w-full h-48 object-center object-cover my-2">
 
-       <div class="additional" v-html="$md.render(expo.fields.additional)">
+    <div class="mx-auto py-3 container font-light" v-html="$md.render(expo.fields.description)">
+    </div>
+       <div class="mx-auto py-3 container font-light" v-if="expo.fields.additional" v-html="$md.render(expo.fields.additional)">
     </div>
    
-    Params slug: {{ $route.params.slug }}
+ 
 
     <hr>
-    <div v-for="(picture,index) in expo.fields.picture" :key="index">
-        {{ picture.fields.title }}<br/>
-        ASETTT: {{ picture.fields.image.fields.file.url }} <br/>
-        <img :src="picture.fields.image.fields.file.url" alt="" class="w-full">
-        
+    <h3>All images</h3>
+    <div class="lg:grid lg:grid-cols-2 gap-2">
+    <div v-for="(picture,index) in expo.fields.picture" :key="index" 
+    class="">
+
+    <ImageCard 
+      :title = picture.fields.title
+      :url = picture.fields.image.fields.file.url
+      :dimensions = picture.fields.dimensions
+    />
     </div>
-<hr>
-<div class="bg-red-800 text-white">
-{{ expo.fields }}
-</div>
+    </div>
+
     
   </div>
 </template>
@@ -64,15 +65,6 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  
-}
-
-h2{
-  color:blue;
-}
 
 
 

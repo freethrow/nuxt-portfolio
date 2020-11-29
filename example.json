@@ -1,1 +1,439 @@
-{ "title": "Escape", "slug": "escape", "description": "Escape - to get away, break free, run from something...", "year": 2014, "cover": { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "2mAy3yoAloMeGvDHXnA2s4", "type": "Asset", "createdAt": "2020-11-28T13:29:47.862Z", "updatedAt": "2020-11-28T13:29:47.862Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "locale": "en-US" }, "fields": { "title": "Escape - cover", "description": "Cover image Escape exhibition", "file": { "url": "//images.ctfassets.net/qjtsepnj8pkr/2mAy3yoAloMeGvDHXnA2s4/6d09f6b140981246d26450b2feefa4e6/plakat.jpg", "details": { "size": 118197, "image": { "width": 566, "height": 800 } }, "fileName": "plakat.jpg", "contentType": "image/jpeg" } } }, "picture": [ { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "7jzXwblTMILI9FxNGdXdzP", "type": "Entry", "createdAt": "2020-11-28T13:33:52.730Z", "updatedAt": "2020-11-28T13:33:52.730Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "contentType": { "sys": { "type": "Link", "linkType": "ContentType", "id": "picture" } }, "locale": "en-US" }, "fields": { "title": "A Rest in the Crowd", "image": { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "7nAUKI9u9mc8sGv31yElMX", "type": "Asset", "createdAt": "2020-11-28T13:33:15.164Z", "updatedAt": "2020-11-28T13:33:15.164Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "locale": "en-US" }, "fields": { "title": "A rest in the Crowd", "file": { "url": "//images.ctfassets.net/qjtsepnj8pkr/7nAUKI9u9mc8sGv31yElMX/07dd3bee31a751c644166b1a8b002f9d/arestinacrowd.jpg", "details": { "size": 302476, "image": { "width": 1024, "height": 457 } }, "fileName": "arestinacrowd.jpg", "contentType": "image/jpeg" } } }, "order": 1, "dimensions": "150x65cm" } }, { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "7alyIVWtBKvp4s1u7wY9zM", "type": "Entry", "createdAt": "2020-11-28T13:36:22.206Z", "updatedAt": "2020-11-28T13:36:22.206Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "contentType": { "sys": { "type": "Link", "linkType": "ContentType", "id": "picture" } }, "locale": "en-US" }, "fields": { "title": "ESC", "image": { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "1aDOtm2G51GaAIAoDdtyMV", "type": "Asset", "createdAt": "2020-11-28T13:35:48.748Z", "updatedAt": "2020-11-28T13:35:48.748Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "locale": "en-US" }, "fields": { "title": "ESC", "file": { "url": "//images.ctfassets.net/qjtsepnj8pkr/1aDOtm2G51GaAIAoDdtyMV/842c9bdbb467916af89a4ebf336e9f1a/ESC140x70cm2014.jpg", "details": { "size": 209960, "image": { "width": 1280, "height": 660 } }, "fileName": "ESC140x70cm2014.jpg", "contentType": "image/jpeg" } } }, "order": 2, "dimensions": "140 x 70 cm" } }, { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "1zpJNE91R79CYwhItCzMId", "type": "Entry", "createdAt": "2020-11-28T13:38:06.508Z", "updatedAt": "2020-11-28T13:38:06.508Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "contentType": { "sys": { "type": "Link", "linkType": "ContentType", "id": "picture" } }, "locale": "en-US" }, "fields": { "title": "LA Phil", "image": { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "38u2a4lYL4DixG9pZEB6WV", "type": "Asset", "createdAt": "2020-11-28T13:37:41.976Z", "updatedAt": "2020-11-28T13:37:41.976Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "locale": "en-US" }, "fields": { "title": "La Phil", "file": { "url": "//images.ctfassets.net/qjtsepnj8pkr/38u2a4lYL4DixG9pZEB6WV/9713ab176025086dac8db5e00873a717/La-Phill-130x110cm2014.jpg", "details": { "size": 187547, "image": { "width": 853, "height": 720 } }, "fileName": "La-Phill-130x110cm2014.jpg", "contentType": "image/jpeg" } } }, "order": 3, "dimensions": "130 x 110cm" } }, { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "70B9DQkYXn6B2pk3p8bpcY", "type": "Entry", "createdAt": "2020-11-28T13:39:29.714Z", "updatedAt": "2020-11-28T13:39:29.714Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "contentType": { "sys": { "type": "Link", "linkType": "ContentType", "id": "picture" } }, "locale": "en-US" }, "fields": { "title": "Grasping the Moment", "image": { "sys": { "space": { "sys": { "type": "Link", "linkType": "Space", "id": "qjtsepnj8pkr" } }, "id": "2Zvwmu9RNDJhKtzdic3dPr", "type": "Asset", "createdAt": "2020-11-28T13:38:59.139Z", "updatedAt": "2020-11-28T13:38:59.139Z", "environment": { "sys": { "id": "master", "type": "Link", "linkType": "Environment" } }, "revision": 1, "locale": "en-US" }, "fields": { "title": "Grasping-the-moment-150x70cm2014", "file": { "url": "//images.ctfassets.net/qjtsepnj8pkr/2Zvwmu9RNDJhKtzdic3dPr/d71dd088c0c1a5fa53390f5829bfc440/Grasping-the-moment-150x70cm2014.jpg", "details": { "size": 185046, "image": { "width": 1280, "height": 608 } }, "fileName": "Grasping-the-moment-150x70cm2014.jpg", "contentType": "image/jpeg" } } }, "order": 5, "dimensions": "50 x 70cm" } } ], "additional": "Escape-pobeći, osloboditi se, uteći od nečega...\n\nKorišćena u programskom kompjuterskom jeziku,reč escape svedena je na skraćenicu ESC (dugme na tastaturi) koja ima značenje izlaska iz operacije koja je u toku, vratiti se na prethodno, na početak ili novo.\n\nOvo je deseta samostalna izložba slika Dragane Jokić, pod nazivom ESCAPE na kojoj je izloženo devet slika iz ciklusa nastalog u proteklih godinu dana. Nazivom ESCAPE simbolično je objedinjenja tematika slika, prvi put imenovanih na stranom (engleskom) jeziku u nameri da se potencira naziv, ali i značenje motiva koji su slikani, od igre reči do dopadljivog zvuka kada se čita ili izgovara.\n\n- \"Healing silence\" 80 x 140 cm 2014.\n- \"A rest in a crowd\" 150 x 65 cm 2014.\n- \"A rest in a cloud\" 140 x 70 cm 2014.\n- \"An ordinary road\" 140 x 100 cm 2014.\n- \"ESC\" 140 x 70 cm 2014.\n- \"Grasping the moment\" 150 x 70 cm 2014.\n- \"Two hundred years\" 100 x 140 cm 2014.\n- \"LA Phill\" 130 x 110 cm 2014.\n- \"Alameda\" 110 x 100 cm 2014.\n- \nSvaka slika pojedinačno je na određen način vezana za akcije koje preduzimamo u cilju “anesteziranja” od realnosti. Bez opterećenja od suda posmatrača, prepuštajući se samo unutrašnjem porivu u radu, nastale su slike prizora u kojima se, manje ili više, preuzimaju motivi (palme, nebo,suncobrani,put/ovanja) toliko korišćeni u komercijalne svrhe da, u suštini, obezvređuju (subjektivno) životno važnu potrebu za lepim, prijatnim, nevažnim i neopterećujućim. Posmatranje oblaka, pa dalje - detaljnije konstrukcije suncobrana, zabavljanje praćenjem svetlosnih i površina u senci, analiziranje fizionomije ljudi u neobaveznoj šetnji, zaustavljanje trenutka pogledom i pamćenjem istog, odlaskom na putovanje ili makar krstarenje internetom… Ogoljena istina postaje štit od suda (osude površnosti) i usmerava na zaključak -pobeći u takav prizor, već poznato kao lično doživljeno ili opštepoznato mesto, a najbolje I najbrže ukoliko je ”na dugme”-ESC ...\n\nPredstavljeno na ovim slikama zamenjuje screensaver ekrana u koji dnevno gledamo ili unutar kojeg se nalazimo nemoćni da bilo šta menjamo...\n\nBekstvo od materijalne stvarnosti, tačnije bekstvo u dubine ili visine vlastitog bića, omogućava nam da spoznamo sebe u u najčistijem obliku. Naravno, takvom iskustvu mogu se nadati samo oni srećnici koji imaju gde da pobegnu. Njihova duhovnost je ujedno i njihov spas. Težnja tog produhovljenog pojedinca jeste da nađe mir i sklad koji su nasušna potreba i čijim se postizanjem čovečanstvo bavi od svojih početaka.\n\nNikada nisu postojala, niti će postojati bolja vremena i ljudi će uvek biti ljudi, u svakom smislu te reči, ali u modernom vremenu su čoveku ta sveta znanja o postizanju mira unutar samog sebe oduzeta, zaboravljena su. Kroz istoriju su uvek postojali periodi takvih duhovnih krahova kakvih smo danas svedoci, i možemo se nadati da je to i sada slučaj i da će se čovečnost ponovo probuditi iz tog dugog sna, a do tada ESC...\n\n*Teodora Knežević*" } 
+{
+    "title": "Kuća u Londonu",
+    "slug": "kuca-u-londonu",
+    "description": "Enterijer kuće u Londonu.",
+    "location": "London, Velika Britanija",
+    "year": 2014,
+    "cover": {
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "qjtsepnj8pkr"
+                }
+            },
+            "id": "5hM9r5gscbqOBFlO7mCW4j",
+            "type": "Asset",
+            "createdAt": "2020-11-28T16:58:54.249Z",
+            "updatedAt": "2020-11-28T16:58:54.249Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "revision": 1,
+            "locale": "en-US"
+        },
+        "fields": {
+            "title": "basta-1o-(medium)",
+            "file": {
+                "url": "//images.ctfassets.net/qjtsepnj8pkr/5hM9r5gscbqOBFlO7mCW4j/3207c0d4c0712b9190bdd70247c5c800/basta-1o-_medium_.jpg",
+                "details": {
+                    "size": 352604,
+                    "image": {
+                        "width": 1024,
+                        "height": 768
+                    }
+                },
+                "fileName": "basta-1o-(medium).jpg",
+                "contentType": "image/jpeg"
+            }
+        }
+    },
+    "category": "residential",
+    "images": [
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "1HjvznZM3pCbO1iZYdzYYs",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:02:38.060Z",
+                "updatedAt": "2020-11-28T17:02:38.060Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "c7-fo-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/1HjvznZM3pCbO1iZYdzYYs/91c672e8a40083aa20b081b27a23d4e5/c7-fo-_medium_.jpg",
+                    "details": {
+                        "size": 199561,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "c7-fo-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "7jT4xlRMv9BivTdqFG9C95",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:03:37.255Z",
+                "updatedAt": "2020-11-28T17:03:37.255Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "c6-o-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/7jT4xlRMv9BivTdqFG9C95/42b532dba030df96f9af4878d72cb76b/c6-o-_medium_.jpg",
+                    "details": {
+                        "size": 239916,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "c6-o-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "7C4G9rQPDZTzqqf6YRPrb8",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:04:27.912Z",
+                "updatedAt": "2020-11-28T17:04:27.912Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "c3-o-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/7C4G9rQPDZTzqqf6YRPrb8/06dd1462337b113638eabe2929d44321/c3-o-_medium_.jpg",
+                    "details": {
+                        "size": 177005,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "c3-o-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "3RTLm3PwRhHjrrsBpzFalQ",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:05:14.611Z",
+                "updatedAt": "2020-11-28T17:05:14.611Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "c2-o-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/3RTLm3PwRhHjrrsBpzFalQ/0237409b2f0d82997338477e6e410ceb/c2-o-_medium_.jpg",
+                    "details": {
+                        "size": 222954,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "c2-o-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "RyRdahw5XwU509XskXkku",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:05:57.185Z",
+                "updatedAt": "2020-11-28T17:05:57.185Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "basta-v3-c4o-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/RyRdahw5XwU509XskXkku/a7d40c00acd32749feccbd9f98992ca8/basta-v3-c4o-_medium_.jpg",
+                    "details": {
+                        "size": 298134,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "basta-v3-c4o-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "4llIyxZvJU4z85VDBk5Khs",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:06:40.258Z",
+                "updatedAt": "2020-11-28T17:06:40.258Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "basta-4-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/4llIyxZvJU4z85VDBk5Khs/ef66ef452af9f70d162d229711feaea2/basta-4-_medium_.jpg",
+                    "details": {
+                        "size": 365754,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "basta-4-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "7j2Vh8Uq7uTOqAk9DKtCuo",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:07:17.673Z",
+                "updatedAt": "2020-11-28T17:07:17.673Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "basta-3o-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/7j2Vh8Uq7uTOqAk9DKtCuo/1d09e4ce0195e2201f110ce4b7e292b8/basta-3o-_medium_.jpg",
+                    "details": {
+                        "size": 347583,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "basta-3o-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "1bIiZ9WNuno0zWBAAWWksZ",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:08:02.304Z",
+                "updatedAt": "2020-11-28T17:08:02.304Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "basta-2o-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/1bIiZ9WNuno0zWBAAWWksZ/febc0a5fda64c8671b3ae1a737846d52/basta-2o-_medium_.jpg",
+                    "details": {
+                        "size": 340157,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "basta-2o-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "1Mh77MC31ji8MtoEpRdfmL",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:08:43.879Z",
+                "updatedAt": "2020-11-28T17:08:43.879Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "basta-2-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/1Mh77MC31ji8MtoEpRdfmL/68641a3a44142fbe9e6718095a267516/basta-2-_medium_.jpg",
+                    "details": {
+                        "size": 311168,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "basta-2-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "qjtsepnj8pkr"
+                    }
+                },
+                "id": "5Ol1vZFBC3oUQPke0aR2Fj",
+                "type": "Asset",
+                "createdAt": "2020-11-28T17:09:22.919Z",
+                "updatedAt": "2020-11-28T17:09:22.919Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "basta-1o-(medium)",
+                "file": {
+                    "url": "//images.ctfassets.net/qjtsepnj8pkr/5Ol1vZFBC3oUQPke0aR2Fj/ab6eab5cabef23b120e0d3c7f48895dc/basta-1o-_medium_.jpg",
+                    "details": {
+                        "size": 352604,
+                        "image": {
+                            "width": 1024,
+                            "height": 768
+                        }
+                    },
+                    "fileName": "basta-1o-(medium).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        }
+    ]
+}

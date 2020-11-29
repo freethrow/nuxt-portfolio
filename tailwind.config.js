@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ['Jost', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        primary: '#006400',
+      }
     },
   },
   variants: {},

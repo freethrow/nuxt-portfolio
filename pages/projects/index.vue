@@ -1,8 +1,27 @@
 <template>
-  <div>
-    <h2>Some text</h2>
-    <img src="https://lorempixel.com/output/city-q-g-1090-480-4.jpg" alt="">
+  <div class="container">
+    <div>
+      <Navigation /> 
+    </div>
+    <div class="projects">
 
+    <div v-for="(project,index) in exhibitions" :key= "index"
+    class="">
+    
+   
+    <img :src="project.fields.cover.fields.file.url"
+    class="rounded-2xl" />
+
+    <hr>
+    {{ project.fields.description }}
+
+    <nuxt-link :to="`projects/${project.fields.slug}`">link</nuxt-link>
+   
+    
+
+    </div>
+  
+    </div>
   </div>
 </template>
 
@@ -12,7 +31,8 @@ import client from '~/plugins/contentful';
 export default {
   asyncData() {
     return client.getEntries({
-      content_type:'project'
+      content_type:'project',
+      'fields.category':'commercial'
       })
       .then(entries => {
 
@@ -20,10 +40,11 @@ export default {
           console.log(element.fields.category);
         }   
               
-        return {projects: entries.items}
+        return {exhibitions: entries.items}
       })
       .catch(err=>console.log(err))
   },
+  
 }
 </script>
 
