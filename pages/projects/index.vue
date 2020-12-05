@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="projects mt-48">
+    <div class="projects mt-4">
+      <h2 class="p-5">Rezidencijalni objekti</h2>
       <Card v-for="(project, index) in projects" :key="index" :title="project.fields.title" :cover="project.fields.cover.fields.file.url" :description="project.fields.description" :location="project.fields.location" :year="project.fields.year" :slug="`${project.fields.slug}`" />
     </div>
   </div>

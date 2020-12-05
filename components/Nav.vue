@@ -1,16 +1,18 @@
 <template>
     <div>
-    <nav class="fixed w-screen
+    <nav class="w-screen
      bg-white
       sm:px-10
       px-2 sm:flex justify-between items-center border-b-1
        border-gray-600">
   <div class="flex px-4 justify-between sm:py-0 pb-1">
+  <div>
     <a href="">
       <img src="https://images.ctfassets.net/qjtsepnj8pkr/3ZEJxurPPi1DKu0sZS6RL0/6f0ba467479ee6dee238ecd95e5f273f/signature.png?h=250" alt="Logo"
            class="w-48 opacity-40 mt-2">
     </a>
-  
+    <h1 class="text-primary font-thin text-xl">Dragana Jokić | Portfolio</h1>
+  </div>
     <button class='text-gray-400 text-3xl sm:hidden block focus:outline-none' id='navIcon'>
       &#9776;
     </button>

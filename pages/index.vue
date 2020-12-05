@@ -73,5 +73,4 @@ export default {
 @apply min-h-screen bg-green-500;
 }
 */
-
 </style>

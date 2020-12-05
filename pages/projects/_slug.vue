@@ -1,8 +1,7 @@
 <template>
   <div>
     <h3 class="font-bold text-xl">{{ project.fields.title }}</h3>
-    <img :src="project.fields.cover.fields.file.url" alt="" class="w-full h-48 object-center object-cover my-2" />
-
+    
     <div class="mx-auto py-3 container font-light" v-html="$md.render(project.fields.description)"></div>
 
     <h3>Gallery</h3>

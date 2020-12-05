@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto bg-white p-5 my-5 rounded-lg shadow-lg relative">
+  <div class="mx-auto bg-white p-6 my-5 rounded-lg shadow-lg relative">
     <nuxt-link class="focus:outline-none" :to="slug">
       <h3 class="font-bold text-lg focus:outline-none text-gray-600">{{ title }}</h3>
       <p class="focus:outline-none">{{ description }}</p>
