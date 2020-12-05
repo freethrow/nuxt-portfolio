@@ -2,7 +2,7 @@ require('dotenv').config();
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'server',
+  target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -15,7 +15,12 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel:'stylesheet', href:'https://fonts.googleapis.com/css2?family=Jost:wght@200;400;800&display=swap'},
-    ]
+    ],
+    
+    script: [
+      { src: "https://code.jquery.com/jquery-1.12.4.min.js" }, { src: "nav.js" }
+    ],
+    
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

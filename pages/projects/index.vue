@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="projects">
+    <div class="projects mt-48">
       <Card v-for="(project, index) in projects" :key="index" :title="project.fields.title" :cover="project.fields.cover.fields.file.url" :description="project.fields.description" :location="project.fields.location" :year="project.fields.year" :slug="`${project.fields.slug}`" />
     </div>
   </div>
@@ -30,8 +30,5 @@ export default {
 @apply min-h-screen bg-green-500;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-}
+
 </style>

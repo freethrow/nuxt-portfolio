@@ -9,7 +9,12 @@ module.exports = {
         sans: ['Jost', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: '#006400',
+        primary: '#AF9F8C',
+        aqua:'#5F7880',
+        tan:'#CAA78D',
+        cloud:'#D3D5D4',
+        steel:'#4B5556',
+        sun:'#CCA085'
       }
     },
   },
