@@ -1,51 +1,27 @@
 <template>
-  <div class="container">
-    <div>
-      <Navigation /> 
-    </div>
+  <div>
     <div class="projects">
-
-    <div v-for="(project,index) in exhibitions" :key= "index"
-    class="">
-    
-   
-    <img :src="project.fields.cover.fields.file.url"
-    class="rounded-2xl" />
-
-    <hr>
-    {{ project.fields.description }}
-
-    <nuxt-link :to="`projects/${project.fields.slug}`">link</nuxt-link>
-   
-    
-
-    </div>
-  
+      <Card v-for="(project, index) in projects" :key="index" :title="project.fields.title" :cover="project.fields.cover.fields.file.url" :description="project.fields.description" :location="project.fields.location" :year="project.fields.year" :slug="`${project.fields.slug}`" />
     </div>
   </div>
 </template>
 
 <script>
-import client from '~/plugins/contentful';
+import client from "~/plugins/contentful";
 
 export default {
   asyncData() {
-    return client.getEntries({
-      content_type:'project',
-      'fields.category':'commercial'
+    return client
+      .getEntries({
+        content_type: "project",
+        "fields.category": "residential",
       })
-      .then(entries => {
-
-        for (const element of entries.items) {
-          console.log(element.fields.category);
-        }   
-              
-        return {exhibitions: entries.items}
+      .then((entries) => {
+        return { projects: entries.items };
       })
-      .catch(err=>console.log(err))
+      .catch((err) => console.log(err));
   },
-  
-}
+};
 </script>
 
 <style>
@@ -57,9 +33,5 @@ export default {
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  
 }
-
-
-
 </style>

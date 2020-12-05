@@ -2,7 +2,7 @@ require('dotenv').config();
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: 'server',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -14,7 +14,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel:'stylesheet', href:'https://fonts.googleapis.com/css2?family=Jost:wght@200;400;800&display=swap'}
+      { rel:'stylesheet', href:'https://fonts.googleapis.com/css2?family=Jost:wght@200;400;800&display=swap'},
     ]
   },
 
@@ -26,6 +26,7 @@ export default {
   plugins: [
     '~/plugins/contentful'
   ],
+
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -66,5 +67,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  }
+    transpile: ['vue-agile']
+},
+  generate: {subFolders: true}, router: {base: '/'}
 }

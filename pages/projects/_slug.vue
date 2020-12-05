@@ -1,53 +1,49 @@
 <template>
   <div>
-    <h3>Title: {{ project.fields.title }} </h3>
+    <h3 class="font-bold text-xl">{{ project.fields.title }}</h3>
+    <img :src="project.fields.cover.fields.file.url" alt="" class="w-full h-48 object-center object-cover my-2" />
 
-    <div class="description" v-html="$md.render(project.fields.description)">
+    <div class="mx-auto py-3 container font-light" v-html="$md.render(project.fields.description)"></div>
+
+    <h3>Gallery</h3>
+    <div class="lg:grid lg:grid-cols-2 gap-3">
+      <div v-for="(picture, index) in project.fields.images" :key="index" class="">
+        <ImageCard :url="picture.fields.file.url" />
+      </div>
     </div>
-    <hr>
-    <div v-for="(picture,index) in project.fields.images" :key="index">
-        {{ picture.fields.title }}<br/>
 
-        <img :src="`${picture.fields.file.url}?fm=jpg&fl=progressive`" alt="" class="w-full">
-        
+    <div v-if="project.fields.additional">
+      <div class="mx-auto py-3 container font-light" v-html="$md.render(project.fields.additional)"></div>
     </div>
-
-<div class="bg-red-800 text-white">
-{{ project.fields }}
-</div>
-    
   </div>
 </template>
 
-
-
 <script>
-import client from '~/plugins/contentful';
+import client from "~/plugins/contentful";
 
 export default {
-
-    
-  asyncData({params}) {
-    
-    return client.getEntries({
-      
-      content_type:'project',
-      'fields.slug':params.slug
+  asyncData({ params }) {
+    return client
+      .getEntries({
+        content_type: "project",
+        "fields.slug": params.slug,
       })
-      .then(entries => {
-        // just one entry        
-        return {project: entries.items[0]}
+      .then((entries) => {
+        // just one entry
+        console.log(entries.items[0]);
+        return { project: entries.items[0] };
       })
-      .catch(err=>console.log(err))
+      .catch((err) => console.log(err));
   },
 
-  head(){
-      return {
-          title:this.project.fields.title
-      }
-  }
-}
-
+  head() {
+    return {
+      title: this.project.fields.title,
+      script: [{ src: "https://code.jquery.com/jquery-1.12.4.min.js" }, { src: "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" }, { src: "images.js" }],
+      link: [{ rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" }],
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -56,16 +52,4 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  
-}
-
-h2{
-  color:blue;
-}
-
-
-
 </style>
