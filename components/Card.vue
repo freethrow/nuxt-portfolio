@@ -5,7 +5,7 @@
       <p class="focus:outline-none">{{ description }}</p>
       <img class="w-full object-cover object-center max-h-80 lg:h-48 lg:max-w-full focus:outline-none opacity-80 hover:opacity-100 transition-opacity" :src="`${cover}?fm=jpg&fl=progressive`" alt="" />
       <div v-if="location" class="float-right font-thin">{{ location }}</div>
-      <div v-if="year" class="absolute bg-red-700 text-white bottom-10 right-10 opacity-70 px-4 py-1 rounded-full">{{ year }}</div>
+      <div v-if="year" class="absolute bg-sun text-white bottom-10 right-10 opacity-70 px-4 py-1 rounded-full">{{ year }}</div>
     </nuxt-link>
   </div>
 </template>

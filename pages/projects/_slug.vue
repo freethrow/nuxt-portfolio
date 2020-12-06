@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h3 class="font-bold text-xl">{{ project.fields.title }}</h3>
+    <h3 class="font-bold text-xl p-5 text-primary">{{ project.fields.title }}</h3>
     
-    <div class="mx-auto py-3 container font-light" v-html="$md.render(project.fields.description)"></div>
+    <div class="mx-auto p-5 container font-light" v-html="$md.render(project.fields.description)"></div>
 
-    <h3>Gallery</h3>
+    
     <div class="lg:grid lg:grid-cols-2 gap-3">
       <div v-for="(picture, index) in project.fields.images" :key="index" class="">
         <ImageCard :url="picture.fields.file.url" />

@@ -1,8 +1,9 @@
 <template>
-  <div class="projects mt-48">
+  <div class="projects mt-8">
     <h2 class="text-primary px-5 font-bold text-xl">Slikarstvo</h2>
+    <hr class="mx-5">
     <p class="text-primary mx-5">Samostalne i ostale izložbe</p>
-    <hr class="m-5 "/>
+    
     <Card
       v-for="(expo, index) in exhibitions"
       :key="index"

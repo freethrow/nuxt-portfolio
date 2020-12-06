@@ -1,11 +1,10 @@
 <template>
   <div>
-    <h3 class="font-bold text-xl">{{ expo.fields.title }}</h3>
-    <img :src="expo.fields.cover.fields.file.url" alt="" class="w-full h-48 object-center object-cover my-2" />
+    <h3 class="font-bold text-xl p-5 text-primary">{{ expo.fields.title }}, {{ expo.fields.year}}</h3>
+   
+    <div class="mx-auto p-5 container font-light" v-html="$md.render(expo.fields.description)"></div>
 
-    <div class="mx-auto py-3 container font-light" v-html="$md.render(expo.fields.description)"></div>
-
-    <h3>Gallery</h3>
+   
     <div class="lg:grid lg:grid-cols-2 lg:gap-3">
       <div v-for="(picture, index) in expo.fields.picture" :key="index" class="">
         <ImageCard :title="picture.fields.title" :url="picture.fields.image.fields.file.url" :dimensions="picture.fields.dimensions" />
@@ -13,14 +12,13 @@
     </div>
 
     <div v-if="expo.fields.additional">
-      <div class="mx-auto py-3 container font-light" v-html="$md.render(expo.fields.additional)"></div>
+      <div class="mx-auto p-3 mt-2  container font-light" v-html="$md.render(expo.fields.additional)"></div>
     </div>
   </div>
 </template>
 
 <script>
 import client from "~/plugins/contentful";
-
 export default {
   asyncData({ params }) {
     return client
