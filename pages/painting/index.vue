@@ -1,18 +1,11 @@
 <template>
   <div class="projects mt-8">
     <h2 class="text-primary px-5 font-bold text-xl">Slikarstvo</h2>
-    <hr class="mx-5">
+    <hr class="mx-5" />
     <p class="text-primary mx-5">Samostalne i ostale izložbe</p>
-    
-    <Card
-      v-for="(expo, index) in exhibitions"
-      :key="index"
-      :title="expo.fields.title"
-      :cover="expo.fields.cover.fields.file.url"
-      :description="expo.fields.description"
-      :year="expo.fields.year"
-      :slug="`${expo.fields.slug}`"
-    />
+    <div class="lg:grid lg:grid-cols-2 gap-4">
+      <Card v-for="(expo, index) in exhibitions" :key="index" :title="expo.fields.title" :cover="expo.fields.cover.fields.file.url" :description="expo.fields.description" :year="expo.fields.year" :slug="`${expo.fields.slug}`" />
+    </div>
   </div>
 </template>
 
@@ -46,5 +39,4 @@ export default {
 @apply min-h-screen bg-green-500;
 }
 */
-
 </style>

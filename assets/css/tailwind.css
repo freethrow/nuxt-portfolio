@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    h1 {
+      @apply text-3xl; 
+      @apply font-medium;
+      @apply my-4;     
+    }
+
+    h2 {
+        @apply text-primary;
+        @apply text-2xl;
+        @apply font-normal;
+        @apply my-3;
+    }
+
+
+
+    h3 {
+      @apply text-xl;
+      @apply text-secondary;
+      @apply font-normal;
+      @apply my-2;
+    }
+
+    h4 {
+        @apply text-xl;
+        @apply text-secondary;
+        @apply font-normal;
+        @apply my-1;
+      }
+
+    ul>li{
+        @apply mx-4;
+        @apply font-extralight;
+    }
+
+    li + p{
+        @apply text-green-400
+    }
+
+    strong{
+        @apply font-normal;
+        @apply text-primary;
+    }
+  }

@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="projects mt-8">
-      <h2 class="text-primary px-5 font-bold text-xl">Arhitektura</h2>
+      <h2 class="text-primary px-5 font-bold text-xl">Aktivnosti</h2>
       <hr class="mx-5" />
-      <p class="text-primary mx-5">Rezidencijalni i komercijalni objekti</p>
+      <p class="text-primary mx-5">Različiti projekti</p>
       <div class="lg:grid lg:grid-cols-2 gap-4">
         <Card v-for="(project, index) in projects" :key="index" :title="project.fields.title" :cover="project.fields.cover.fields.file.url" :description="project.fields.description" :location="project.fields.location" :year="project.fields.year" :slug="`${project.fields.slug}`" />
       </div>
@@ -19,7 +19,7 @@ export default {
     return client
       .getEntries({
         content_type: "project",
-        "fields.architecture": true,
+        "fields.category": "other",
       })
       .then((entries) => {
         return { projects: entries.items };

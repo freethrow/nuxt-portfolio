@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white mx-3 py-3 border-t-2 text-aqua">
+    <div class="bg-white mx-3 mt-8 py-3 border-t-2 text-aqua">
        Dragana Jokic, email, telefon
     </div>
 </template>

@@ -14,7 +14,8 @@ module.exports = {
         tan:'#CAA78D',
         cloud:'#D3D5D4',
         steel:'#4B5556',
-        sun:'#CCA085'
+        sun:'#CCA085',
+        secondary:'#CCA085'
       }
     },
   },
