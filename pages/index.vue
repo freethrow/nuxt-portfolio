@@ -14,7 +14,7 @@
           <img class="p-2 h-48 w-full object-center object-cover" :src="`${bio.fields.landingPainting.fields.file.url}?fm=jpg&fl=progressive`" :alt="bio.fields.landingPainting.fields.title" />
         </div>
         <div>
-          <h2 class="font-bold text-steel my-3">Slikarstvo</h2>
+          <h2 class="font-bold text-primary my-3">Slikarstvo</h2>
 
           <p class="font-extralight">{{ bio.fields.introPainting }}</p>
         </div>
@@ -25,7 +25,7 @@
           <img class="p-2 h-48 w-full object-center object-cover" :src="`${bio.fields.landingArchitecture.fields.file.url}?fm=jpg&fl=progressive`" :alt="bio.fields.landingArchitecture.fields.title" />
         </div>
         <div>
-          <h2 class="font-bold text-steel my-3">Arhitektura</h2>
+          <h2 class="font-bold text-primary my-3">Arhitektura</h2>
           <p class="font-extralight">{{ bio.fields.introArchitecture }}</p>
         </div>
       </div>
@@ -35,7 +35,7 @@
           <img class="p-2 h-48 w-full object-center object-cover" :src="`${bio.fields.landingActivities.fields.file.url}?fm=jpg&fl=progressive`" :alt="bio.fields.landingActivities.fields.title" />
         </div>
         <div>
-          <h2 class="font-bold text-steel my-3">Ostale aktivnosti</h2>
+          <h2 class="font-bold text-primary my-3">Ostale aktivnosti</h2>
           <p class="font-extralight">{{ bio.fields.introActivities }}</p>
         </div>
       </div>
