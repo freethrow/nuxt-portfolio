@@ -5,7 +5,7 @@
       <hr class="mx-5" />
       <p class="text-primary mx-5">Rezidencijalni i komercijalni objekti</p>
       <div class="lg:grid lg:grid-cols-2 gap-4">
-        <Card v-for="(project, index) in projects" :key="index" :title="project.fields.title" :cover="project.fields.cover.fields.file.url" :description="project.fields.description" :location="project.fields.location" :year="project.fields.year" :slug="`${project.fields.slug}`" />
+        <Card v-for="(project, index) in projects" :key="index" :title="project.fields.title" :cover="project.fields.cover.fields.file.url" :description="project.fields.description" :location="project.fields.location" :year="project.fields.year" :slug="`/projects/${project.fields.slug}`" />
       </div>
     </div>
   </div>
