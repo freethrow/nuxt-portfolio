@@ -12,11 +12,12 @@
       </div>
 
       <ul class="hidden sm:flex cursor-pointer font-light" id="navContent">
-        <li class="py-2 px-1 sm:border-b-2 border-primary hover:text-primary transition duration-200 text-primary hover:bg-gray-200 sm:hover:bg-transparent text-white"><nuxt-link to="/" class="block">Home</nuxt-link></li>
-        <li class="text-gray-600 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/painting/" class="block">Slikarstvo</nuxt-link></li>
-        <li class="text-gray-600 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/projects/" class="block">Arhitektura</nuxt-link></li>
-        <li class="text-gray-600 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/activities/" class="block">Aktivnosti</nuxt-link></li>
-        <li class="text-gray-600 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/about/" class="block">Biografija</nuxt-link></li>
+        <li class="text-gray-600 mx-3 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/" class="block">Naslovna</nuxt-link></li>
+        <li class="text-gray-600 mx-3 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/painting/" class="block">Slikarstvo</nuxt-link></li>
+        <li class="text-gray-600 mx-3 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/projects/" class="block">Arhitektura</nuxt-link></li>
+        <li class="text-gray-600 mx-3 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/activities/" class="block">Aktivnosti</nuxt-link></li>
+        <li class="text-gray-600 mx-3 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/about/" class="block">Biografija</nuxt-link></li>
+        <li class="text-gray-600 mx-3 py-2 sm:border-b-2 border-transparent hover:border-primary sm:hover:text-primary transition hover:bg-gray-200 duration-200 sm:hover:bg-transparent"><nuxt-link to="/contact/" class="block">Kontakt</nuxt-link></li>
       </ul>
     </nav>
   </div>
@@ -30,4 +31,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped>
+.nuxt-link-exact-active {
+  color: #cca085;
+}
+</style>

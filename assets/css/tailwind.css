@@ -34,8 +34,8 @@
       }
 
     ul>li{
-        @apply mx-4;
         @apply font-extralight;
+        border-bottom:1px solid #eee;
     }
 
     li + p{

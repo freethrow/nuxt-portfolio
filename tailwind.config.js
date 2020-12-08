@@ -9,13 +9,15 @@ module.exports = {
         sans: ['Jost', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: '#AF9F8C',
+        primary: '#CAA78D',
+        secondary:'#D3D5D4',
+        ternary:'#5F7880',
         aqua:'#5F7880',
         tan:'#CAA78D',
         cloud:'#D3D5D4',
         steel:'#4B5556',
         sun:'#CCA085',
-        secondary:'#CCA085'
+        
       }
     },
   },
