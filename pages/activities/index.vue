@@ -5,7 +5,17 @@
       <hr class="mx-5" />
       <p class="text-primary mx-5">Različiti projekti</p>
       <div class="lg:grid lg:grid-cols-2 gap-4">
-        <Card v-for="(project, index) in projects" :key="index" :title="project.fields.title" :cover="project.fields.cover.fields.file.url" :description="project.fields.description" :location="project.fields.location" :year="project.fields.year" :slug="`/activities/${project.fields.slug}`" />
+        <Card
+          v-for="(project, index) in projects"
+          :key="index"
+          :title="project.fields.title"
+          :cover="project.fields.cover.fields.file.url"
+          :description="project.fields.description"
+          :location="project.fields.location"
+          :year="project.fields.year"
+          :slug="`/activities/${project.fields.slug}`"
+          class="transform hover:scale-105 hover:rotate-1 transition duration-300"
+        />
       </div>
     </div>
   </div>

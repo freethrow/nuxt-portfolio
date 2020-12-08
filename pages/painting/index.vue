@@ -4,7 +4,16 @@
     <hr class="mx-5" />
     <p class="text-primary mx-5">Samostalne i ostale izložbe</p>
     <div class="lg:grid lg:grid-cols-2 gap-4">
-      <Card v-for="(expo, index) in exhibitions" :key="index" :title="expo.fields.title" :cover="expo.fields.cover.fields.file.url" :description="expo.fields.description" :year="expo.fields.year" :slug="`/painting/${expo.fields.slug}`" />
+      <Card
+        v-for="(expo, index) in exhibitions"
+        :key="index"
+        :title="expo.fields.title"
+        :cover="expo.fields.cover.fields.file.url"
+        :description="expo.fields.description"
+        :year="expo.fields.year"
+        :slug="`/painting/${expo.fields.slug}`"
+        class="transform hover:scale-105 hover:rotate-1 transition duration-300"
+      />
     </div>
   </div>
 </template>
