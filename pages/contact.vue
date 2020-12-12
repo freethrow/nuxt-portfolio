@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="mt-8 mx-2 wrapper">
-      <h2 class="text-primary px-5 font-bold text-xl">Biografija</h2>
+      <h2 class="text-primary px-5 font-bold text-xl">Kontakt</h2>
       <hr class="mx-5" />
 
       <hr class="mx-5" />
-      <h2 class="mx-5">Kontakt</h2>
+      <h2 class="mx-5">Pošaljite poruku i potpišite se.</h2>
       <div class="px-2 lg:px-8 py-6 h-1/2">
         <div
           class="bg-white p-2 lg:p-10 w-full md:w-1/2 lg:w-3/4 mx-auto rounded-lg shadow-xl"
@@ -61,7 +61,7 @@
                 <button
                   type="submit"
                   value="submit"
-                  class="rounded py-3 px-8 text-white bg-primary hover:bg-sun hover:scale-110 transition"
+                  class="rounded py-3 px-8 text-white bg-primary hover:scale-110 transition duration-500"
                 >
                   Poslati poruku
                 </button>
